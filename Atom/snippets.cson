@@ -1,0 +1,13 @@
+'.source.js':
+  'console.log':
+    'prefix': 'log'
+    'body': 'console.log(${1:"log"});$2'
+  'console.warn':
+    'prefix': 'warn'
+    'body': 'console.warn(${1:"warn"});$2'
+  'ES6 Arrow':
+    'prefix': 'arrow'
+    'body': '($1) => {\n\t${0:// Do something...}\n}$2'
+  'ES6 Concat':
+    'prefix': 'concat'
+    'body': '`${1:Foo} ${$2}`;'

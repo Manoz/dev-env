@@ -1,0 +1,30 @@
+"*":
+  "atom-autocomplete-php":
+    binComposer: "C:/ProgramData/ComposerSetup/bin/composer"
+  autoprefixer: {}
+  core:
+    disabledPackages: [
+      "whitespace"
+      "linter-jshint"
+    ]
+    telemetryConsent: "no"
+  editor:
+    atomicSoftTabs: false
+    fontFamily: "Hack"
+    lineHeight: 1.4
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+  "file-icons":
+    forceShow: true
+  "markdown-writer":
+    fileExtension: ".markdown, .md"
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  welcome:
+    showOnStartup: false
