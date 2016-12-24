@@ -31,7 +31,6 @@ alias ....='cd ../../..'
 
 # Git shortcuts
 alias gs='git status'
-alias gc='git clone'
 alias ga='git add .'
 alias gcam='git commit -am'
 alias gm='git push origin master'
