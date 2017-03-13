@@ -1,11 +1,11 @@
-# some more ls aliases
-alias ll='ls -l -a -h'
+# Some ls aliases
+alias ll='ls -lah'
 alias la='ls -A'
-alias lla="ls -l -h"
+alias lla="ls -lh"
 alias l='ls -CF'
 alias rr=". ~/.zshrc"
 
-# ls stuff
+# Some color stuff
 eval "`dircolors -b`"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
